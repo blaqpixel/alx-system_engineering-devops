@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -name "*.html" -exec cp --update --parents {} ../ \;
+cp -u *.html alx-system_engineering-devops
